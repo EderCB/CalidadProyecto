@@ -10,7 +10,7 @@
 	<html lang="es">
 	<head>
 		<meta charset="UTF-8">
-		<title>Administración de estudiantes</title>
+		<title>LIBRERÍA BAZAR | JORGUITO</title>
 		<link rel="stylesheet" href="<?php echo URL; ?>/Views/template/css/bootstrap.css">
 		<link rel="stylesheet" href="<?php echo URL; ?>/Views/template/css/general.css">
 	</head>
@@ -24,7 +24,7 @@
 		        <span class="icon-bar"></span>
 		        <span class="icon-bar"></span>
 		      </button>
-		      <a class="navbar-brand" href="#">Administración de Estudiantes</a>
+		      <a class="navbar-brand" href="#">LIBRERÍA BAZAR | JORGUITO</a>
 		    </div>
 
 		    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-2">
@@ -44,10 +44,24 @@
 		            <li><a href="<?php echo URL; ?>/secciones/agregar">Agregar</a></li>
 		          </ul>
 		        </li>
+		        <li class="dropdown">
+		          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Productos<span class="caret"></span></a>
+		          <ul class="dropdown-menu" role="menu">
+		            <li><a href="<?php echo URL; ?>/productos">Listado</a></li>
+		            <li><a href="<?php echo URL; ?>/productos/agregar">Agregar</a></li>
+		          </ul>
+		        </li>
+		        <li class="dropdown">
+		          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Categorias <span class="caret"></span></a>
+		          <ul class="dropdown-menu" role="menu">
+		            <li><a href="<?php echo URL; ?>/categorias">Listado</a></li>
+		            <li><a href="<?php echo URL; ?>/categorias/agregar">Agregar</a></li>
+		          </ul>
+		        </li>
 		      </ul>
 		      
 		      <ul class="nav navbar-nav navbar-right">
-		        <li><a href="#">Codigo Facilito</a></li>
+		        <li><a href="#">LIBRERÍA BAZAR | JORGUITO</a></li>
 		      </ul>
 		    </div>
 		  </div>
@@ -58,8 +72,8 @@
 		public function __destruct(){
 ?>
 	<footer class="navbar-fixed-bottom">
-		Todos los derechos reservados &copy 2015 <br>
-		Carlos Fernandes ~ @_bycar | <b>CódigoFacilito</b>
+		Todos los derechos reservados &copy 2018 <br>
+		ADMINISTRACIÓN JORGUITO ~ | <b>LIBRERÍA BAZAR | JORGUITO</b>
 	</footer>
 	<script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
 	<script src="<?php echo URL; ?>/Views/template/js/bootstrap.js"></script>

@@ -6,7 +6,7 @@
 			"host" => "localhost",
 			"user" => "root",
 			"pass" => "",
-			"db" => "proyectopoo"
+			"db" => "calidad"
 		);
 		private $con;
 
